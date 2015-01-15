@@ -1,3 +1,9 @@
+/*
+real    7m57.075s
+user    2m11.066s
+sys 5m45.337s
+*/
+
 #include <iostream>
 #include <fstream>
 #include <iomanip>
