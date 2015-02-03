@@ -8,5 +8,7 @@ int main () {
 
   std::cout << std::setprecision(3) << pi << std::endl;
 
+  std::cout << std::setfill('0') << std::setw(10) << pi << std::endl;
+
   return 0;
 }

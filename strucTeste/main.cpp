@@ -5,11 +5,11 @@ using namespace std;
 struct Teste{
     int a, b;
 
-    int min(void) {
+    inline int min(void) {
         return (a<b)?a:b;
     }
 
-    int max(void){
+    inline int max(void){
         return (a>b)?a:b;
     }
 };
